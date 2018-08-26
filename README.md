@@ -7,3 +7,6 @@ Hi! You're about to see how I built a website to showcase my portfolio! Feel fre
 FEATURES
 This is a fun responsive website built with a flexbox design to make it responsive no matter what device you use.
 Let me know what you think of it!
+
+USING THIS SITE
+View the website by opening the index file and running the code. I'm looking forward to hearing your feedback.
