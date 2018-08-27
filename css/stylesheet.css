@@ -1,0 +1,136 @@
+img, embed, object, video {
+  max-width: 100%;
+}
+
+#logo {
+  float: left;
+  height: 2.5em;
+}
+
+#name {
+  font-family: "Unica One", sans-serif;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+#job {
+  font-family: "Amaranth", sans-serif;
+  display: block;
+  text-align: right;
+  margin-top: -1.5em;
+  border-bottom: solid 5px #8096AB;
+}
+
+#main-pic {
+  margin-top: -0.5em;
+  width: 100%;
+}
+
+.image-source {
+  font-size: 0.5em;
+  color: grey;
+  margin-top: 0.2em;
+}
+
+.pic2 {
+  display: none;
+}
+
+.site-description {
+  font-size: 0;
+}
+
+#project-header {
+  font-family: "Amaranth", sans-serif;
+  font-weight: lighter;
+  color: #C2C9CF;
+  font-size: 1.3em;
+  margin-top: -0.5em;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  color: #363E47;
+  font-family: sans-serif;
+  margin-top: -1.7em;
+}
+
+.project-name {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: -0.2em;
+  margin-left: -0.4em;
+}
+
+.project {
+  width: 31%;
+  margin: 1%;
+}
+
+.projpic {
+  width: 100%;
+}
+
+a {
+  font-size: .36em;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .project-name {
+    font-size: 1.5em;
+  }
+
+  a {
+    font-size: 0.6em;
+    margin-bottom: 2em;
+  }
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
+
+@media screen and (min-width: 660px) {
+  #name {
+    font-size: 3em;
+    }
+
+  #logo {
+    height: 4em;
+    }
+
+  #job {
+    margin-top: -2.5em;
+    }
+
+  .pic-box {
+    width: 70%;
+    margin-right: 4%;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+  .pic2 {
+    display: flex;
+    margin-top: -2%;
+  }
+
+  .side-box {
+    width: 20%;
+  }
+
+  .project {
+    width: 100%;
+  }
+}
