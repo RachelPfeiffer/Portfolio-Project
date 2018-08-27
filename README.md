@@ -13,6 +13,6 @@ View the website by opening the index file and running the code. I'm looking for
 
 KNOWN ISSUES
 Here are two big issues that need to be fixed: 
-1. My files are not saved in a way that any computer other than mine can get to the images and stylesheets. How can I save them in a place that everyone who runs the index file will see the images and styling?
+1. My files are not saved in a way that any computer other than mine can get to the images and stylesheets. How can I save them in a place that everyone who runs the index file will see the images and styling? RESOLVED by changing to relative paths.
 
-2. When I try to validate the code, they say that there are bad characters in the code - %, \, etc. How do I get rid of those characters?
+2. When I try to validate the code, they say that there are bad characters in the code - %, \, etc. How do I get rid of those characters? RESOLVED by changing to relative paths and changing = to : in CSS.
