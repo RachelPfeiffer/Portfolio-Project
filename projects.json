@@ -1,0 +1,24 @@
+{
+  "projects" : [
+    {
+      "id" : 0,
+      "name" : "Memory",
+      "demo" : "https://rachelpfeiffer.github.io/memory-game/",
+      "github" : "https://github.com/RachelPfeiffer/memory-game"
+    },
+
+    {
+      "id" : 1,
+      "name" : "History",
+      "demo" : "https://rachelpfeiffer.github.io/history/",
+      "github" : "https://github.com/RachelPfeiffer/history"
+    },
+
+    {
+      "id" : 2,
+      "name" : "Creme Demo",
+      "demo" : "https://rachelpfeiffer.github.io/creme-website-demo/",
+      "github" : "https://github.com/RachelPfeiffer/creme-website-demo"
+    }
+  ]
+}
