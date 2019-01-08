@@ -19,6 +19,20 @@
       "name" : "Creme Demo",
       "demo" : "https://rachelpfeiffer.github.io/creme-website-demo/",
       "github" : "https://github.com/RachelPfeiffer/creme-website-demo"
+    },
+
+    {
+      "id" : 3,
+      "name" : "Restaurant Reviews",
+      "demo" : "https://rachelpfeiffer.github.io/restaurant-reviews/",
+      "github" : "https://github.com/RachelPfeiffer/restaurant-reviews"
+    },
+
+    {
+      "id" : 4,
+      "name" : "Frogger",
+      "demo" : "https://rachelpfeiffer.github.io/frogger/",
+      "github" : "https://github.com/RachelPfeiffer/frogger"
     }
   ]
 }

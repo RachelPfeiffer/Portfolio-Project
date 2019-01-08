@@ -3,22 +3,25 @@ img, embed, object, video {
 }
 
 #logo {
-  float: left;
+
   height: 2.5em;
+  margin-left: calc(50% - 35px);
+  margin-top: 5%;
 }
 
 #name {
   font-family: "Unica One", sans-serif;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
 }
 
 #job {
   font-family: "Amaranth", sans-serif;
   display: block;
-  text-align: right;
+  text-align: center;
   margin-top: -1.5em;
   border-bottom: solid 5px #8096AB;
+  padding-bottom: 1em;
 }
 
 #main-pic {
@@ -60,19 +63,21 @@ img, embed, object, video {
 
 }
 
-.project-name {
-  text-transform: uppercase;
-  font-size: 0.8em;
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: -0.1em;
-  margin-left: -0.4em;
+.project {
+  width: 100%;
 }
 
-.project {
-  width: 31%;
-  margin: 1%;
+.project-name {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.5em;
+  margin-top: -0.1em;
+  margin-left: -0.4em;
+  font-size: 1.3em;
 }
+
+
 
 .proj-pic {
   width: 100%;
@@ -91,6 +96,9 @@ a {
   flex-wrap: nowrap;
   margin-left: -10%;
   justify-content: center;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px grey dotted;
 }
 
 .github-link, .demo-link {
@@ -98,7 +106,21 @@ a {
   font-size: 1em;
 }
 
-@media screen and (min-width: 500px) {
+
+@media only screen and (min-width: 500px) {
+  #name, #job {
+    text-align: right;
+    }
+
+#job {
+  padding-bottom: none;
+}
+  #logo {
+      float: left;
+      margin-left: 0;
+      margin-top: 1em;
+  }
+
   .project-name {
     font-size: 1.5em;
   }
@@ -107,6 +129,14 @@ a {
     font-size: 16px;
     margin-bottom: 2em;
   }
+
+.project {
+  width: 31%;
+  margin: 1%;
+}
+
+.project-name {
+  font-size: 0.8em;
 }
 
 section {
