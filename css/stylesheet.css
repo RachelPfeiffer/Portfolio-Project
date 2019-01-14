@@ -2,54 +2,43 @@ img, embed, object, video {
   max-width: 100%;
 }
 
-#logo {
+body {
+  position: relative;
+  overflow-x: hidden;
+}
 
+header {
+  background-color: white;
+  border-bottom: solid 5px #8096AB;
+}
+
+#logo {
   height: 2.5em;
-  margin-left: calc(50% - 35px);
-  margin-top: 5%;
+  margin: auto;
+  display: block;
 }
 
 #name {
   font-family: "Unica One", sans-serif;
   text-align: center;
   text-transform: uppercase;
+  margin: 0
 }
 
 #job {
   font-family: "Amaranth", sans-serif;
   display: block;
   text-align: center;
-  margin-top: -1.5em;
-  border-bottom: solid 5px #8096AB;
-  padding-bottom: 1em;
+margin: 0;
 }
 
-#main-pic {
-  margin-top: -0.5em;
-  width: 100%;
+.contact {
+  height: 2em;
+  display: block;
+  margin: auto;
 }
-
-.image-source {
-  font-size: 0.5em;
-  color: grey;
-  margin-top: 0.2em;
-}
-
-.pic2 {
-  display: none;
-}
-
-.site-description {
-  font-size: 0;
-}
-
-#project-header {
-  font-family: "Amaranth", sans-serif;
-  font-weight: lighter;
-  color: #646669;
-  font-size: 1.3em;
-  margin-top: -0.5em;
-  text-align: center;
+main {
+  background-color: #f4f7f9;
 }
 
 .projects {
@@ -60,68 +49,128 @@ img, embed, object, video {
   margin-top: -1em;
   border-top: 1px solid #c2c9cf;
   padding-top: 5px;
-
 }
 
 .project {
-  width: 100%;
+  padding-top: 1em;
 }
 
-.project-name {
+.proj-name {
+  margin: 0.3em;
   text-transform: uppercase;
+  font-size: 2em;
   text-align: center;
-  margin-bottom: 0;
-  padding: 0.5em;
-  margin-top: -0.1em;
-  margin-left: -0.4em;
-  font-size: 1.3em;
+  font-family: "Unica One", sans-serif;
 }
-
-
 
 .proj-pic {
-  width: 100%;
+  height: 40vh;
   border-radius: 3px;
   box-shadow: 5px 3px 10px rgba(1,1,1,0.6);
+  display: block;
+  margin: auto;
 }
 
-a {
-  font-size: 12px;
+.proj-info-spot {
+  margin: auto;
+}
+
+.view a {
+  font-size: 15px;
   display: block;
   text-align: center;
+  margin-left: 2%;
+  background-color: #A9A9A9;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 .view {
   display: flex;
-  flex-wrap: nowrap;
-  margin-left: -10%;
   justify-content: center;
   margin-bottom: 1em;
-  padding-bottom: 1em;
-  border-bottom: 1px grey dotted;
 }
 
-.github-link, .demo-link {
+.github, .live {
   margin-left: 10%;
   font-size: 1em;
+  margin-left: 5%;
 }
 
+.description {
+  font-family: sans-serif;
+  width: 80%;
+  margin: auto;
+}
 
-@media only screen and (min-width: 500px) {
+nav {
+  float: right;
+  background-color: #404b56;
+  color: white;
+  /* text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;  */
+}
+
+nav ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+nav li {
+  color: inherit;
+  text-decoration: inherit;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+}
+nav li a:active, nav li a h1:focus, nav li a h1:visited {
+  color: white;
+  text-decoration: inherit;
+}
+
+li a img {
+  width: 75%;
+  height: 75%;
+  padding-top: 15%;
+}
+nav li a h1 {
+  display: flex;
+  text-decoration: inherit;
+  color: inherit;
+  margin: auto;
+}
+
+h4 {
+  display: none;
+}
+
+nav li:hover {
+  background-color: #5c6c7c;
+}
+/* @media only screen and (min-width: 500px) {
+
   #name, #job {
     text-align: right;
     }
 
-#job {
-  padding-bottom: none;
-}
   #logo {
       float: left;
       margin-left: 0;
       margin-top: 1em;
   }
 
-  .project-name {
+  nav {
+
+  }
+
+
+  .proj-name {
     font-size: 1.5em;
   }
 
@@ -130,26 +179,6 @@ a {
     margin-bottom: 2em;
   }
 
-.project {
-  width: 31%;
-  margin: 1%;
-}
-
-.project-name {
-  font-size: 0.8em;
-}
-
-section {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.box {
-  width: 100%;
-}
-
-@media screen and (min-width: 660px) {
   #name {
     font-size: 3em;
     }
@@ -162,23 +191,7 @@ section {
     margin-top: -2.5em;
     }
 
-  .pic-box {
-    width: 70%;
-    margin-right: 4%;
-    margin-left: 1%;
-    margin-top: 1%;
-  }
-
-  .pic2 {
-    display: flex;
-    margin-top: -2%;
-  }
-
-  .side-box {
-    width: 20%;
-  }
-
   .project {
-    width: 100%;
+    border: 1px grey dotted;
   }
-}
+} */
