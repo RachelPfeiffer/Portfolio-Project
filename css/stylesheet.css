@@ -22,27 +22,23 @@ header {
   z-index: 100;
 }
 
-#logo {
+.logo {
   height: 2em;
   position: relative;
   top: 2.3em;
 }
 
-.contact {
-
-}
-
 .name-job {
   width: 90%;
 }
-#name {
+.name {
   font-family: "Unica One", sans-serif;
   text-align: center;
   text-transform: uppercase;
   margin: 0
 }
 
-#job {
+.job {
   font-family: "Amaranth", sans-serif;
   display: block;
   text-align: center;
@@ -73,15 +69,15 @@ margin-top: -1em;
   z-index: -100;
 }
 
-.project.transparent {
+.transparent {
   opacity: 0;
 }
 
-.project.up {
+.up {
   transform: translateY(-100%);
 }
 
-.project.down {
+.down {
   transform: translateY(100%);
 }
 
@@ -246,7 +242,6 @@ span.degree {
   h4 {
     max-width: 100px;
     text-align: left;
-    display: block;
     /* need the whole area clickable so margin is 0, padding makes it look semidecent */
     margin:0;
     width:100%;
@@ -266,6 +261,14 @@ span.degree {
   }
 
 }
+
+@media only screen and (min-width: 700px) {
+  h4 {
+    display: block;
+  }
+
+}
+
 /* @media only screen and (min-width: 500px) {
 
   #name, #job {
