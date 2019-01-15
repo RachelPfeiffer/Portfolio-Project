@@ -1,5 +1,37 @@
+let response = 10;
 console.log("script is linked and running");
 const navList = document.querySelector('ol');
+fetch("projects.json").then(function (info) {
+return info.json();
+}).then(function (info) {
+  response = info.projects;
+  fillProjectSection(info.projects[0]);
+  fillNav(info.projects);
+});
+
+document.addEventListener('click', function (e) {
+  if (e.target.src = '/images.about.svg') {
+    console.log("clicked the about me picture!");
+  };
+  for (project of response) {
+  if ('0'+project.id === e.target.innerText || project.name.toUpperCase() === e.target.innerText) {
+    const projectSection = document.querySelector('.project');
+    projectSection.classList.add('up');
+    projectSection.classList.add('transparent');
+    // need to set a new variable with the value to fill with, because otherwise the loop will finish before the setTimeout and "project" will be equal to the last project in the loop
+    let fillWithThis = project;
+    setTimeout(function () {
+      projectSection.classList.remove('up');
+      projectSection.classList.add('down');
+      fillProjectSection(fillWithThis);
+    },100)
+    setTimeout(function () {
+      projectSection.classList.remove('transparent');
+      projectSection.classList.remove('down');
+    },200)
+  }
+}
+});
 
 const fillNav = function(projects) {
   for (project of projects) {
@@ -7,13 +39,9 @@ const fillNav = function(projects) {
     projListing.innerHTML = '<h1>0'+project.id+'</h1><h4>'+project.name+'</h4>';
     navList.appendChild(projListing);
   }
-
 }
 
 const fillProjectSection = function(project) {
-  console.log(project);
-//   const main = document.querySelector('main');
-//   const projSection = document.createElement('div');
 const pic = document.querySelector('.proj-pic');
 pic.src = '/images/'+project.id+'.JPG';
 
@@ -28,6 +56,9 @@ github.href = project.github;
 
 const demo = document.querySelector('.live');
 demo.href = project.demo;
+
+const projectSection = document.querySelector('.project');
+projectSection.style.backgroundColor = project.color;
 }
 //
 //   const infoSpot = document.querySelector('.proj-info-spot');
@@ -51,10 +82,8 @@ demo.href = project.demo;
 //       describe.innerText = project.description;
 // }
 
-let response;
-fetch("projects.json").then(function (info) {
-return info.json();
-}).then(function (info) {
-  fillProjectSection(info.projects[1]);
-  fillNav(info.projects);
-});
+
+// function getKeyByValue(object, value) {
+//   return Object.keys(object).find(key => object[key] === value);
+// };
+// getKeyByValue(response[0],"Cherry Demo");

@@ -3,9 +3,10 @@
     {
       "id" : 1,
       "name" : "Cherry Demo",
-      "demo" : "https://rachelpfeiffer.github.io/creme-website-demo/",
+      "demo" : "https://rachelpfeiffer.github.io/cherry-website-demo/",
       "github" : "https://github.com/RachelPfeiffer/cherry-website-demo",
-      "description" : "Food, glorious food! This site is a showcase for all your favorite recipes (and articles about them, for the foodies who like to read articles about recipes). Enjoy on your mobile or desktop - it's fully responsive and organized in MVC, so you can customize the site any way you like."
+      "description" : "Food, glorious food! This site is a showcase for all your favorite recipes (and articles about them, for the foodies who like to read articles about recipes). Enjoy on your mobile or desktop - it's fully responsive and organized in MVC, so you can customize the site any way you like.",
+      "color" : "#f9b5b5"
     },
 
     {
@@ -13,7 +14,8 @@
       "name" : "Restaurant Reviews",
       "demo" : "https://rachelpfeiffer.github.io/restaurant-reviews/",
       "github" : "https://github.com/RachelPfeiffer/restaurant-reviews",
-      "description" : "This restaurant reviews website was done as practice in making a site responsive and also adhering to WACAG. Lots of thought in there to make this site work for people who can't use a mouse or don't see."
+      "description" : "This restaurant reviews website was done as practice in making a site responsive and also adhering to WACAG. Lots of thought in there to make this site work for people who can't use a mouse or don't see.",
+      "color" : "#0066ff2e"
     },
 
     {
@@ -21,7 +23,8 @@
       "name" : "Memory",
       "demo" : "https://rachelpfeiffer.github.io/memory-game/",
       "github" : "https://github.com/RachelPfeiffer/memory-game",
-      "description" : "Built on pure vanilla JavaScript, this is a classic memory game. The load time is quick because we used Font Awesome instead of actual images, and Flexbox makes it all fit nicely on your screen. Code is organized in MVC format, making it easy to add features or take some out."
+      "description" : "Built on pure vanilla JavaScript, this is a classic memory game. The load time is quick because we used Font Awesome instead of actual images, and Flexbox makes it all fit nicely on your screen. Code is organized in MVC format, making it easy to add features or take some out.",
+      "color" : "aqua"
     },
 
     {
@@ -29,7 +32,8 @@
       "name" : "History",
       "demo" : "https://rachelpfeiffer.github.io/history/",
       "github" : "https://github.com/RachelPfeiffer/history",
-      "description" : "Accountability. Responsibility. Transparency. This project has changed my life! Click to import your Google Search history. Save it as history.json. Then open the browser and press the 'send-email' button to send your history to your trusted friend."
+      "description" : "Accountability. Responsibility. Transparency. This project has changed my life! Click to import your Google Search history. Save it as history.json. Then open the browser and press the 'send-email' button to send your history to your trusted friend.",
+      "color" : "khaki"
     },
 
     {
@@ -37,7 +41,8 @@
       "name" : "Frogger",
       "demo" : "https://rachelpfeiffer.github.io/frogger/",
       "github" : "https://github.com/RachelPfeiffer/frogger",
-      "description" : "Boing, boing, boing - tada! Basic OOP has giant cockroaches crashing into the sprite on screen. Enjoy the nifty sound effects and don't get smushed!"
+      "description" : "Boing, boing, boing - tada! Basic OOP has giant cockroaches crashing into the sprite on screen. Enjoy the nifty sound effects and don't get smushed!",
+      "color" : "yellow"
     }
   ]
 }
