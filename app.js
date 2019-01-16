@@ -10,9 +10,6 @@ return info.json();
 });
 
 document.addEventListener('click', function (e) {
-  if (e.target.src = '/images.about.svg') {
-    console.log("clicked the about me picture!");
-  };
   for (project of response) {
   if ('0'+project.id === e.target.innerText || project.name.toUpperCase() === e.target.innerText) {
     const projectSection = document.querySelector('.project');
