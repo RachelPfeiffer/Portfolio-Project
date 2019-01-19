@@ -1,7 +1,7 @@
 let response = 10;
 console.log("script is linked and running");
 const navList = document.querySelector('ol');
-fetch("projects.json").then(function (info) {
+fetch("https://rachelpfeiffer.github.io/Portfolio-Project/projects.json").then(function (info) {
 return info.json();
 }).then(function (info) {
   response = info.projects;
