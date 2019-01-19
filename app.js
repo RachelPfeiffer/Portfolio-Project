@@ -40,7 +40,7 @@ const fillNav = function(projects) {
 
 const fillProjectSection = function(project) {
 const pic = document.querySelector('.proj-pic');
-pic.src = '/images/'+project.id+'.JPG';
+pic.src = 'https://rachelpfeiffer.github.io/Portfolio-Project/images/'+project.id+'.JPG';
 
 const name = document.querySelector('.proj-name');
 name.innerText = project.name;
