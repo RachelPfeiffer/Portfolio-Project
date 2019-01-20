@@ -32,7 +32,7 @@
       "name" : "History",
       "demo" : "https://rachelpfeiffer.github.io/history/",
       "github" : "https://github.com/RachelPfeiffer/chrome-history-extension",
-      "description" : "Accountability. Responsibility. Transparency. This project has changed my life! Click to import your Google Search history. Save it as history.json. Then open the browser and press the 'send-email' button to send your history to your trusted friend.",
+      "description" : "Accountability. Responsibility. Transparency. This project has changed my life! One click to download the past week's Chrome history. One click to open your e-mail. Drag and drop the downloaded file and send your history to your trusted friend.",
       "color" : "khaki"
     },
 
