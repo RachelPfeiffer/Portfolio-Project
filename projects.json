@@ -31,7 +31,7 @@
       "id" : 4,
       "name" : "History",
       "demo" : "https://rachelpfeiffer.github.io/history/",
-      "github" : "https://github.com/RachelPfeiffer/history",
+      "github" : "https://github.com/RachelPfeiffer/chrome-history-extension",
       "description" : "Accountability. Responsibility. Transparency. This project has changed my life! Click to import your Google Search history. Save it as history.json. Then open the browser and press the 'send-email' button to send your history to your trusted friend.",
       "color" : "khaki"
     },
