@@ -1,4 +1,4 @@
-let response = 10;
+var response = 10;
 console.log("script is linked and running");
 const navList = document.querySelector('ol');
 fetch("https://rachelpfeiffer.github.io/Portfolio-Project/projects.json").then(function (info) {
