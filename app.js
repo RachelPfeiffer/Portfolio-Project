@@ -78,9 +78,3 @@ const fillProjectSection = function (project) {
   const projectSection = document.querySelector('.project');
   projectSection.style.backgroundColor = project.color;
 }
-
-//     // need to set a new variable with the value to fill with, because otherwise the loop will finish before the setTimeout and "project" will be equal to the last project in the loop
-//     // let fillWithThis = project;
-
-// }
-// });
