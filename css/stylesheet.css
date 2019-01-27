@@ -17,6 +17,8 @@ body {
 header {
   background-color: white;
   border-bottom: solid 5px #8096AB;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   /* make content fly out behind header */
@@ -34,6 +36,8 @@ header {
   display: none;
   color: white;
   background-color: grey;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
   transition: all 1s ease;
 }
 .featured .visible {
@@ -43,6 +47,8 @@ header {
 .name-job {
   width: 90%;
   padding-top: 0;
+  -webkit-transition: all 2s ease;
+  -o-transition: all 2s ease;
   transition: all 2s ease;
 }
 
@@ -68,8 +74,11 @@ margin-top: -1em;
 }
 
 .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   color: #363E47;
   margin-top: -1em;
   border-top: 1px solid #c2c9cf;
@@ -79,6 +88,8 @@ margin-top: -1em;
 .project {
   padding-top: 1em;
   margin-bottom: 1em;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
   z-index: -100;
 }
@@ -88,11 +99,15 @@ margin-top: -1em;
 }
 
 .up {
-  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 .down {
-  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
 }
 
 .proj-name {
@@ -106,7 +121,8 @@ margin-top: -1em;
 .proj-pic {
   height: 40vh;
   border-radius: 3px;
-  box-shadow: 5px 3px 10px rgba(1,1,1,0.6);
+  -webkit-box-shadow: 5px 3px 10px rgba(1,1,1,0.6);
+          box-shadow: 5px 3px 10px rgba(1,1,1,0.6);
   display: block;
   margin: auto;
   max-width: 80%;
@@ -129,8 +145,12 @@ margin-top: -1em;
 }
 
 .view {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 1em;
 }
 
@@ -153,10 +173,15 @@ nav {
 }
 
 nav ol {
-  margin-block-start: 0;
-  margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
   list-style: none;
-  padding-inline-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -178,6 +203,8 @@ li a img {
   padding-top: 15%;
 }
 nav li a h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-decoration: inherit;
   color: inherit;
@@ -206,8 +233,11 @@ h6 {
 }
 .skills ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  padding-inline-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
   text-align: center;
   max-width: 350px;
   margin: auto;
@@ -230,6 +260,8 @@ span.degree {
 
 .udacity {
   margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: -0.6em;
 }
@@ -279,6 +311,8 @@ max-width: 100px;
     margin-top: 2em;
   }
   nav {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     float: right;
     margin-top: 1em;
@@ -316,6 +350,8 @@ max-width: 100px;
     display: block;
   }
 nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -331,46 +367,3 @@ nav li {
   padding-bottom: 5em;
 }
 }
-
-/* @media only screen and (min-width: 500px) {
-
-  #name, #job {
-    text-align: right;
-    }
-
-  #logo {
-      float: left;
-      margin-left: 0;
-      margin-top: 1em;
-  }
-
-  nav {
-
-  }
-
-
-  .proj-name {
-    font-size: 1.5em;
-  }
-
-  a {
-    font-size: 16px;
-    margin-bottom: 2em;
-  }
-
-  #name {
-    font-size: 3em;
-    }
-
-  #logo {
-    height: 4em;
-    }
-
-  #job {
-    margin-top: -2.5em;
-    }
-
-  .project {
-    border: 1px grey dotted;
-  }
-} */

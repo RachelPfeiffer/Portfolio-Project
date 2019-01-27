@@ -1,0 +1,333 @@
+img, embed, object, video {
+  max-width: 100%;
+}
+
+h6, p {
+  font-family: "Amaranth", sans-serif;
+}
+body {
+  position: relative;
+  overflow-x: hidden;
+  /* get the header to hug the top of the screen */
+  margin-top: 0;
+  background-color: #f4f7f9;
+  font-family: "poppins", sans-serif;
+}
+
+header {
+  background-color: white;
+  border-bottom: solid 5px #8096AB;
+  display: flex;
+  position: relative;
+  /* make content fly out behind header */
+  z-index: 100;
+  height: auto;
+}
+
+.logo {
+  height: 2em;
+  position: relative;
+  top: 2.3em;
+}
+
+.featured {
+  display: none;
+  color: white;
+  background-color: grey;
+  transition: all 1s ease;
+}
+.featured .visible {
+  display: block;
+}
+
+.name-job {
+  width: 90%;
+  padding-top: 0;
+  transition: all 2s ease;
+}
+
+.name {
+  font-family: "Unica One", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0
+}
+
+.job {
+  font-family: "Amaranth", sans-serif;
+  display: block;
+  text-align: center;
+margin: 0;
+margin-top: -1em;
+}
+
+.contact {
+  height: 2em;
+  position:relative;
+  top: 2.5em;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  color: #363E47;
+  margin-top: -1em;
+  border-top: 1px solid #c2c9cf;
+  padding-top: 5px;
+}
+
+.project {
+  padding-top: 1em;
+  margin-bottom: 1em;
+  transition: all 0.2s ease;
+  z-index: -100;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.up {
+  transform: translateY(-100%);
+}
+
+.down {
+  transform: translateY(100%);
+}
+
+.proj-name {
+  margin: 0.3em;
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  font-family: "Unica One", sans-serif;
+}
+
+.proj-pic {
+  height: 40vh;
+  border-radius: 3px;
+  box-shadow: 5px 3px 10px rgba(1,1,1,0.6);
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+.proj-info-spot {
+  margin: auto;
+}
+
+.view a {
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  background-color: #A9A9A9;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.github, .live {
+  margin-left: 10%;
+  font-size: 1em;
+  margin-left: 5%;
+}
+
+.description {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  background-color: #404b56;
+  color: white;
+  position: relative;
+  z-index: 100;
+}
+
+nav ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+}
+
+nav li {
+  color: inherit;
+  text-decoration: inherit;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+}
+nav li a:active, nav li a h1:focus, nav li a h1:visited {
+  color: white;
+  text-decoration: inherit;
+}
+
+li a img {
+  width: 75%;
+  height: 75%;
+  padding-top: 15%;
+}
+nav li a h1 {
+  display: flex;
+  text-decoration: inherit;
+  color: inherit;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.5em;
+}
+
+h4 {
+  display: none;
+}
+
+nav li:hover {
+  background-color: #5c6c7c;
+  cursor: pointer;
+}
+
+h6 {
+  text-align: center;
+  font-size: 1em;
+  margin: 0.5em;
+  border-top: 1px dotted grey;
+}
+.skills ul {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+  text-align: center;
+  max-width: 350px;
+  margin: auto;
+}
+
+.skills span {
+  font-size: 0.5em;
+}
+
+.skills img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -0.5em;
+}
+
+span.degree {
+  font-size: 1em;
+  margin-left: 1em;
+}
+
+.udacity {
+  margin: auto;
+  width: fit-content;
+  margin-top: -0.6em;
+}
+
+.available-section h6{
+border-top: none;
+}
+
+.available-section {
+  margin-top: 1em;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+}
+
+.available-section img {
+  margin-left: calc(50% - 20px);
+}
+button.available {
+  margin-top: 1em;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+  background-color: navy;
+  display: block;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .featured {
+    display: block;
+    padding-top: 1em;
+font-size: 1.1em;
+text-transform: uppercase;
+text-align: center;
+max-width: 100px;
+  }
+
+  .project {
+    width: 80%;
+    margin-left: 2em;
+    margin-top: 2em;
+  }
+  nav {
+    width: fit-content;
+    float: right;
+    margin-top: 1em;
+  }
+
+  nav ol {
+    display: inline;
+  }
+
+  h4 {
+    max-width: 100px;
+    text-align: left;
+    /* need the whole area clickable so margin is 0, padding makes it look semidecent */
+    margin:0;
+    width:100%;
+    padding-top: 1em;
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+  nav li h1 {
+    height: 1em;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 700px) {
+  h4 {
+    display: block;
+  }
+nav li {
+  display: flex;
+}
+
+.featured {
+  max-width: none;
+}
+
+.available-section {
+  position: fixed;
+}
+
+.about-me {
+  padding-bottom: 5em;
+}
+}
