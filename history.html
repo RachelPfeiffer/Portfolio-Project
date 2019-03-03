@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .container {
+        max-width: 90%;
+      }
+
+      video {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+    </div>
+    <video id="myVideo" src="images/history.mp4" autoplay poster="images/4.jpg">
+
+    </video>
+
+    <script type="text/javascript">
+      var x = document.getElementById("myVideo");
+      x.play();
+      var restartVid = function() {
+        x.pause();
+        x.currentTime = 0;
+        x.play();
+      }
+
+function playVid() {
+  setInterval(restartVid, 30000);
+  console.log("playing video!");
+}
+playVid();
+    </script>
+
+  </body>
+</html>
