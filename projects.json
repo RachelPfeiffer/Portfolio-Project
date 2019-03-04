@@ -56,11 +56,19 @@
     {
       "id" : 6,
       "name" : "Photography",
-      "demo" : "https://rachelpfeiffer.github.io/sklar-photography/",
+      "demo" : "https://vigilant-clarke-5d1cff.netlify.com",
       "github" : "https://github.com/RachelPfeiffer/sklar-photography",
       "description" : "Site done for professional photographer to showcase galleries and photos. Done in Wordpress!",
       "color" : "orange"
-    }
+    },
+    {
+      "id" : 7,
+      "name" : "Micol Halev",
+      "demo" : "https://rachelpfeiffer.github.io/micol-halev/",
+      "github" : "https://github.com/RachelPfeiffer/micol-halev",
+      "description" : "One-page app promoting a charity for children with disabilities",
+      "color" : "pink"
+        }
 
   ]
 }
