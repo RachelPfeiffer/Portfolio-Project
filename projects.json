@@ -1,6 +1,15 @@
 {
   "projects" : [
     {
+      "id" : 0,
+      "name" : "Lifeguarding",
+      "demo" : "https://rachelpfeiffer.github.io/jws-final/",
+      "github" : "https://github.com/RachelPfeiffer/jws-final",
+      "description" : "This sleek, one-page app loads in less than 0.5 seconds but contains everything you need to join a lifeguarding course with Jerusalem Water Safety.",
+      "color" : "lightblue"
+    },
+
+    {
       "id" : 1,
       "name" : "Cherry Demo",
       "demo" : "https://rachelpfeiffer.github.io/cherry-website-demo/",
@@ -30,7 +39,7 @@
     {
       "id" : 4,
       "name" : "History",
-      "demo" : "https://rachelpfeiffer.github.io/history/",
+      "demo" : "history.html",
       "github" : "https://github.com/RachelPfeiffer/chrome-history-extension",
       "description" : "Accountability. Responsibility. Transparency. This project has changed my life! One click to download the past week's Chrome history. One click to open your e-mail. Drag and drop the downloaded file and send your history to your trusted friend.",
       "color" : "khaki"
@@ -43,6 +52,23 @@
       "github" : "https://github.com/RachelPfeiffer/frogger",
       "description" : "Boing, boing, boing - tada! Basic OOP has giant cockroaches crashing into the sprite on screen. Enjoy the nifty sound effects and don't get smushed!",
       "color" : "yellow"
-    }
+    },
+    {
+      "id" : 6,
+      "name" : "Photography",
+      "demo" : "https://vigilant-clarke-5d1cff.netlify.com",
+      "github" : "https://github.com/RachelPfeiffer/sklar-photography",
+      "description" : "Site done for professional photographer to showcase galleries and photos. Done in Wordpress!",
+      "color" : "orange"
+    },
+    {
+      "id" : 7,
+      "name" : "Micol Halev",
+      "demo" : "https://rachelpfeiffer.github.io/micol-halev/",
+      "github" : "https://github.com/RachelPfeiffer/micol-halev",
+      "description" : "One-page app promoting a charity for children with disabilities",
+      "color" : "pink"
+        }
+
   ]
 }
