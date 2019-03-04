@@ -17,9 +17,18 @@
       "description" : "Food, glorious food! This site is a showcase for all your favorite recipes (and articles about them, for the foodies who like to read articles about recipes). Enjoy on your mobile or desktop - it's fully responsive and organized in MVC, so you can customize the site any way you like.",
       "color" : "#f9b5b5"
     },
+    
+      {
+      "id" : 2,
+      "name" : "Restaurant Reviews",
+      "demo" : "https://rachelpfeiffer.github.io/restaurant-reviews/",
+      "github" : "https://github.com/RachelPfeiffer/restaurant-reviews",
+      "description" : "This restaurant reviews website was done as practice in making a site responsive and also adhering to WACAG. Lots of thought in there to make this site work for people who can't use a mouse or don't see.",
+      "color" : "#0066ff2e"
+    },
 
     {
-      "id" : 2,
+      "id" : 3,
       "name" : "Memory",
       "demo" : "https://rachelpfeiffer.github.io/memory-game/",
       "github" : "https://github.com/RachelPfeiffer/memory-game",
@@ -28,7 +37,7 @@
     },
 
     {
-      "id" : 3,
+      "id" : 4,
       "name" : "History",
       "demo" : "history.html",
       "github" : "https://github.com/RachelPfeiffer/chrome-history-extension",
@@ -37,7 +46,7 @@
     },
 
     {
-      "id" : 4,
+      "id" : 5,
       "name" : "Frogger",
       "demo" : "https://rachelpfeiffer.github.io/frogger/",
       "github" : "https://github.com/RachelPfeiffer/frogger",
@@ -45,7 +54,7 @@
       "color" : "yellow"
     },
     {
-      "id" : 5,
+      "id" : 6,
       "name" : "Photography",
       "demo" : "https://vigilant-clarke-5d1cff.netlify.com",
       "github" : "https://github.com/RachelPfeiffer/sklar-photography",
@@ -53,7 +62,7 @@
       "color" : "orange"
     },
     {
-      "id" : 6,
+      "id" : 7,
       "name" : "Micol Halev",
       "demo" : "https://rachelpfeiffer.github.io/micol-halev/",
       "github" : "https://github.com/RachelPfeiffer/micol-halev",
